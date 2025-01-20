@@ -14,7 +14,8 @@ const openModalBtn = document.getElementById('openModal');
         });
 
         // Close modal when clicking outside the modal content
-        // click outside the modal
-    window.click();
-    expect(modal.style.display).to.equal('none');
-});
+        window.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.style.display = 'block';
+            }
+        });
