@@ -5,7 +5,7 @@ const openModalBtn = document.getElementById('openModal');
 
         // Open modal
         openModalBtn.addEventListener('click', () => {
-            modal.style.display = 'flex';
+            modal.style.display = 'block';
         });
 
         // Close modal when clicking on close button
