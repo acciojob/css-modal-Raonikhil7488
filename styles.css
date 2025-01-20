@@ -17,6 +17,7 @@ body {
             border: none;
             border-radius: 5px;
             cursor: pointer;
+			display:block;
             font-size: 16px;
         }
 
